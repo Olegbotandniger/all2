@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="css/calc.css">
+</head>
+
+<body>
+    <ul class="list">
+        <li class="item">
+            <a href="film.html" class="href">Любимое кино</a>
+        </li>
+        <li class="item">
+            <a href="dni.html" class="href">Дни в секунды</a>
+        </li>
+        
+        <li class="item">
+            <a href="test.html" class="href">Тест</a>
+        </li>
+        <li class="item">
+            <a href="index.html" class="href">Главная</a>
+        </li>
+        <li class="item">
+            <a href="spisok.html" class="href">Список дел</a>
+        </li>
+        <li class="item">
+            <a href="game.html" class="href">Игра</a>
+        </li>
+        <li class="item">
+            <a href="notes/index.php" class="href">Заметки</a>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="numbers">
+            <input type="text " class="number number1" id="numberone" placeholder="Первое число">
+            <input type="text" class="number number2" id="numbertwo" placeholder="Второе число">
+        </div>
+        <div class="move1">
+            <button class="button but1" type="button" id="convertsum">+</button>
+            <button class="button but2" type="button" id="convertmin">-</button>
+
+        </div>
+        <div class="move2">
+            <button class="button but3" type="button" id="convertumn">*</button>
+            <button class="button but4" type="button" id="convertdel">:</button>
+        </div>
+        <div class="res">
+            <input class="result" id="result" disabled placeholder="Результат">
+        </div>
+    </div>
+    <script src="js/calc.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</body>
+
+</html>

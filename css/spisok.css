@@ -1,0 +1,80 @@
+body
+{height: 100vh;
+font-family: Arial, sans-serif
+;
+background-color: #f0f0f0;
+margin: 0;
+padding: 20px;
+text-align: center;
+background: linear-gradient(rgb(77, 1, 255)20%,rgb(157, 255, 0));
+
+}
+h1
+{
+color: #fff;
+}
+
+#task
+{
+    border-radius: 7px;
+padding: 10px;
+font-size: 16px;
+width: 60%;
+margin-right: 10px;
+border: 1px solid #ccc;
+margin-bottom: 40px;}
+.pad{
+    margin-top: 20vh;
+}
+#add-button
+{
+padding: 10px 20px;
+font-size: 16px;
+background-color: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+border-radius: 7px;}
+
+#add-button:hover
+{
+background-color: #0056b3;}
+
+#todo-list
+{list-style: none;
+padding: 0;}
+
+#todo-list li
+{background-color: #fff;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 7px;}
+
+#todo-list button
+{
+background-color: #dc3545;
+color: #fff;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+border-radius: 7px;
+}
+#todo-list button:hover {
+background-color: #c82333;
+}
+ul{
+    list-style-type: none;   
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   .list {
+       display: flex;
+       justify-content: space-between;
+   }
